@@ -1,0 +1,35 @@
+{
+  "name":            "simplest-kanban-server",
+  "version":         "0.0.1",
+  "description":     "The REST server of a very simple kanban application with only 1 feature and almost no error handling.",
+  "keywords":        [
+    "rest",
+    "kanban",
+    "server",
+    "agile",
+    "pm",
+    "project",
+    "management"
+  ],
+  "main":            "lib/index.js",
+  "bin":             {
+    "simple-kanban": "./bin/simple-kanban"
+  },
+  "scripts":         {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author":          "WhiteTrefoil <whitetrefoil@gmail.com>",
+  "license":         "MIT",
+  "dependencies":    {
+    "fs-extra": "^0.11.0",
+    "lodash":   "^2.4.1",
+    "restify":  "^2.8.2"
+  },
+  "devDependencies": {
+    "coffee-script":        "^1.8.0",
+    "grunt":                "^0.4.5",
+    "grunt-contrib-clean":  "^0.6.0",
+    "grunt-contrib-coffee": "^0.11.1",
+    "grunt-contrib-watch":  "^0.6.1"
+  }
+}
