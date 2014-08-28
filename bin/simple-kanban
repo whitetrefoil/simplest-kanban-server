@@ -1,0 +1,9 @@
+#!/usr/bin/env node
+
+var path = require('path');
+var fs = require('fs');
+var lib = path.join(path.dirname(fs.realpathSync(__filename)), '../lib');
+
+require(lib + 'index').listen(9999, function() {
+  console.log('Server just started at port 9999!');
+});
