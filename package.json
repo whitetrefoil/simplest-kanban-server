@@ -1,6 +1,6 @@
 {
   "name":            "simplest-kanban-server",
-  "version":         "0.0.1",
+  "version":         "0.1.0",
   "description":     "The REST server of a very simple kanban application with only 1 feature and almost no error handling.",
   "keywords":        [
     "rest",
