@@ -8,3 +8,5 @@ data/
 *.iml
 *.ipr
 *.iws
+lib/
+bin/
