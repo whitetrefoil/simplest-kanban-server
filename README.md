@@ -1,4 +1,4 @@
-Simplest Kanban
+Simplest Kanban Server
 =====
 
 Develop branch status: [![Build Status](https://travis-ci.org/whitetrefoil/simplest-kanban-server.svg?branch=develop)](https://travis-ci.org/whitetrefoil/simplest-kanban-server)
