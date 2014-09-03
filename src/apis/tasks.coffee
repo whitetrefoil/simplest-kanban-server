@@ -1,3 +1,5 @@
+restify = require 'restify'
+
 [ mongoose, db ] = require '../db'
 server = require '../server'
 
