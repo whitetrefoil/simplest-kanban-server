@@ -1,20 +1,5 @@
-mongoose = require 'mongoose'
-
-statuses = [ 'op', 'ip', 'sh', 'dev' ]
-
-taskSchema = mongoose.Schema
-  name:
-    type: String
-    required: true
-  assignee:
-    type: String
-  status:
-    type: String
-    enum: statuses
-    required: true
+[ mongoose, db ] = require '../db'
+schema = require '../schemata/task'
 
 
-Task = mongoose.model 'Task', taskSchema
-
-
-module.exports = Task
+mongoose.model 'Task', schema

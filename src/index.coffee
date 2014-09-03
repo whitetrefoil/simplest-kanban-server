@@ -1,5 +1,9 @@
 util = require 'util'
+
+require './db'
+require './models'
 server = require './server'
+require './apis'
 
 
 if require.main is module
