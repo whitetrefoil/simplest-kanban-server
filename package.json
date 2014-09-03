@@ -1,6 +1,6 @@
 {
   "name":            "simplest-kanban-server",
-  "version":         "0.1.0",
+  "version":         "0.2.0",
   "description":     "The REST server of a very simple kanban application with only 1 feature and almost no error handling.",
   "keywords":        [
     "rest",
@@ -19,6 +19,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author":          "WhiteTrefoil <whitetrefoil@gmail.com>",
+  "repository":      "https://github.com/whitetrefoil/simplest-kanban-server",
+  "homepage":        "https://github.com/whitetrefoil/simplest-kanban-server",
   "license":         "MIT",
   "dependencies":    {
     "fs-extra": "^0.11.0",

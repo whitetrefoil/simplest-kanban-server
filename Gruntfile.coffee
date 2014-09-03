@@ -36,3 +36,7 @@ module.exports = (grunt) ->
   grunt.registerTask 'dev', 'Start a watcher of compiling', [
     'build', 'watch'
   ]
+
+  grunt.registerTask 'default', 'UT (when has) & build', [
+    'build'
+  ]
