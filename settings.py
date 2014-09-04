@@ -59,7 +59,8 @@ assignees = {
     'schema': {
         'name': {
             'type': 'string',
-            'required': True
+            'required': True,
+            'unique': True
         }
     }
 }
@@ -69,7 +70,8 @@ statuses = {
     'schema': {
         'code': {
             'type': 'string',
-            'required': True
+            'required': True,
+            'unique': True
         },
         'name': {
             'type': 'string',
@@ -86,7 +88,8 @@ milestones = {
     'schema': {
         'name': {
             'type': 'string',
-            'required': True
+            'required': True,
+            'unique': True
         },
         'isClosed': {
             'type': 'boolean',
