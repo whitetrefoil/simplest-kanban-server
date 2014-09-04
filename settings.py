@@ -6,6 +6,8 @@ MONGO_HOST = 'localhost'
 MONGO_PORT = 27017
 MONGO_DBNAME = 'simplest-kanban-eve'
 
+URL_PREFIX = 'api'
+
 RESOURCE_METHODS = ['GET', 'POST']
 ITEM_METHODS = ['GET', 'PUT', 'DELETE']
 BANDWIDTH_SAVER = False
