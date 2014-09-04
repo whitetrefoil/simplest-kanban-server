@@ -51,6 +51,17 @@ tasks = {
                 'field': '_id',
                 'embeddable': True
             }
+        },
+        'labels': {
+            'type': 'list',
+            'schema': {
+                'type': 'string',
+                'data_relation': {
+                    'resource': 'labels',
+                    'field': 'name'
+                }
+            },
+            'required': True
         }
     }
 }
@@ -98,9 +109,25 @@ milestones = {
     }
 }
 
+labels = {
+    'schema': {
+        'name': {
+            'type': 'string',
+            'required': True,
+            'unique': True
+        },
+        'color': {
+            'type': 'string',
+            'default': '#FFFFFF'
+        }
+    }
+}
+
+
 DOMAIN = {
     'tasks': tasks,
     'assignees': assignees,
     'statuses': statuses,
-    'milestones': milestones
+    'milestones': milestones,
+    'labels': labels
 }
