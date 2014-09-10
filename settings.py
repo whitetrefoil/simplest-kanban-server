@@ -91,6 +91,10 @@ statuses = {
         'cssClass': {
             'type': 'string',
             'default': ''
+        },
+        'order': {
+            'type': 'number',
+            'default': 0
         }
     }
 }
